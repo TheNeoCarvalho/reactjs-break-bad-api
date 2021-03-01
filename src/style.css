@@ -1,0 +1,40 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  height: 200px;
+  padding: 5px;
+  background: #eee;
+  margin: 5px;
+}
+
+.card .card-img {
+  flex: 4;
+}
+
+.card .card-text {
+  padding: 50px;
+
+  flex: 2;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card strong {
+  font-family: "Arial Black";
+}
+
+.card p {
+  font: 12px Verdana;
+}
